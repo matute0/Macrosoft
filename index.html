@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="styles.css" rel="stylesheet">
+        <title>Macrosoft - Register</title>
+    </head>
+
+    <body>
+        <section>
+        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/732/732221.png">
+        <h1>Register</h1>
+        </section>
+
+        <section>
+        <form action="https://github.com/matute0/Macrosoft">
+        <label for="name">Put your name: (*) <input id="name" type="text" name="name" placeholder="YourName" class="register" required /></label>
+        <label for="second-name">Put your second name: <input id="second-name" name="second-name" class="register" placeholder="YourSecondName" /> </label>
+        <label for="last-name">Put your last name: (*) <input id="last-name" type="text" name="last-name" placeholder="YourLastName" class="register" required /></label>
+        <label for="email">Put your email: (*) <input id="email" type="email" name="email" class="register" placeholder="youremail@domain.com" required /></label>
+        <label for="username">Put your username: (*) <input id="username" type="text" name="username" class="register" placeholder="yourusername123" required pattern="[a-z_0-9]{4,}" /></label>
+        <label for="password">Put your password: (*) <input id="password" type="password" name="username" class="register" placeholder="yourpassword" required pattern="[a-z0-9]{8,}" /></label>
+        <label for="male"><input class="inline" id="male" type="radio" name="gender" /> Male</label>
+        <label for="female"><input class="inline" id="female" type="radio" name="gender" /> Female</label>
+        <label for="other"><input class="inline" id="other" type="radio" name="gender" checked /> Other</label>
+        <label for="age">Input your age (years): (*)<input type="number" id="age" name="age" class="register" min="18" max="120" required></label>
+        <label><input type="checkbox" required name="terms-and-conditions" class="inline"/> I accept the <a href="tac.html">terms and conditions</a></label>
+        </section>
+        <input type="submit" value="Register">
+        </form>
+        <p>Website design by <a href="https://github.com/matute0">matute0</a></p>
+    </body>
+</html>
